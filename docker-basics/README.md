@@ -60,20 +60,20 @@ $ docker commit <\container_name>
 
 Now look at the docker images list:
 
-![image](assets/image/create_docker_image.png)  
+![image](assets/images/create_docker_image.png)  
 
 3. Tag the image: 
 
 $ docker tag <\image_id> <\SOURCE_IMAGE><:><\tag>
 
-![image](assets/image/ls_images.png)  
+![image](assets/images/ls_images.png)  
 
 4. Push the image:
 
 $ docker push <\image_name>
 
-![image](assets/image/push_image.png)  
+![image](assets/images/push_image.png)  
 
 Image in dockerhub:
 
-![image](assets/image/dockerhub_image.png)  
+![image](assets/images/dockerhub_image.png)  
